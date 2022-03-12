@@ -1,0 +1,85 @@
+/* CARD RESPONSIVE */
+
+
+.row{
+	
+	display:grid;
+	grid-template-columns:repeat(3,33%);
+	justify-content:center;
+	grid-gap:5px;
+	
+}
+
+#basic-rwd{
+	
+	
+}
+
+#pro-rwd{
+	
+	
+}
+
+#premium-rwd{
+	
+	
+}
+
+
+/* CONTACT SECTION */
+
+
+.contact-me{
+	
+	display:grid;
+	
+grid-template-columns:auto auto auto;
+	
+	
+}
+
+.rwd-contact{
+	grid-column:1 / 4;
+	
+	display:grid;
+	grid-template-columns:auto auto auto;
+	
+}
+
+.rwd-contact .email{
+  grid-column:1 / 2;
+	
+}
+
+.rwd-contact .location{
+  grid-column:2 / 3;
+	
+}
+
+.rwd-contact .phone{
+  grid-column:3 / 4;
+	 
+}
+
+
+.contact-form{
+	grid-column:1 / 4;
+	
+}
+
+.hr{
+	grid-column:1 / 4;
+	
+}
+
+#hr{
+	border:1px solid white;
+	border-bottom:none;
+	margin-top:35px;
+	width:100%;
+	
+	
+}
+
+
+

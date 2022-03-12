@@ -1,0 +1,263 @@
+/* SKILLS */
+
+body{
+	
+	font-family:tahoma;
+	background:whitesmoke;
+}
+
+
+.about h2{
+	margin:10px 20px;
+}
+
+.about p{
+	margin:0 20px;
+}
+
+
+.skill{
+	margin-top:-30px;
+	margin:0 20px;
+} 	
+
+.skill li{
+	list-style-type:none;
+	position:relative;
+	margin:40px 0;
+	
+} 	
+
+.skill li::before{
+	content:'';
+	background:lightgray;
+	height:18px;
+	width:100%;
+	position:absolute;
+	top:30px;
+	margin:;
+	left:0;
+	right:0;
+} 	
+
+.skill li.p::after{
+	content:'';
+	
+	background:#555;
+	height:18px;
+	
+	position:absolute;
+	top:30px;
+	margin:;
+	left:0;
+	right:0;
+	
+	width:95%;
+} 	
+
+
+
+.skill li.w::after{
+	content:'';
+	background:#555;
+	height:18px;
+	
+	position:absolute;
+	top:30px;
+	margin:;
+	left:0;
+	right:0;
+	
+	width:85%;
+} 	
+
+
+.skill li.ph::after{
+	content:'';
+	background:#555;
+	height:18px;
+	
+	position:absolute;
+	top:30px;
+	margin:;
+	left:0;
+	right:0;
+	
+	width:80%;
+	
+	
+} 	
+
+.dlr{
+  	margin:0 20px;
+		background:#555;
+		color:white;
+		padding:10px;
+		height:40px;
+		width:150px;
+		border:none;
+	}
+	
+
+
+/*CARD SECTION START*/
+
+/* for pro */
+
+#pro{
+	background:#67CDAC;
+	color:white;
+}
+
+.card{
+	border:0.2px solid #868686;
+	margin:0 20px;
+	margin-top:15px;
+	height:;
+	color:gray;
+}
+
+.card .card-header{
+	text-align:center;
+	background:#555;
+	color:white;
+	height:70px;
+	display:grid;
+	place-items:center;
+	font-size:2rem;
+}
+
+.card li{
+	list-style-type:none;
+	text-align:center;
+	background:white;
+	margin:3px 0;
+	
+	
+}
+
+
+.card .card-footer{
+	text-align:center;
+	
+}
+
+.card-footer button{
+	border:none;
+	background:#67CDAC;
+	padding:10px;
+	width:120px;
+	height:40px;
+	margin:20px 0;
+	color:white;
+	font-size:1rem;
+}
+
+
+.card-body > li{
+	display:grid;
+	place-items:center;
+	height:50px;
+}
+
+.card-body,.amount{
+	
+	margin:0;
+}
+
+.amount{
+	background:white;
+}
+
+.card-body .b{
+	
+}
+
+.amount{
+	height:70px;
+	display:grid;
+	place-items:center;
+}
+
+.amount #dlr{
+	font-size:2rem;
+}
+
+.amount #pmnt{
+	color:gray;
+}
+
+
+/* CONTACT SECTION  */
+
+.contact-me{
+	
+	background:gray;
+	margin-top:30px;
+	padding:20px;
+}
+
+.email{
+	background:#555;
+	height:70px;
+	display:grid;
+	place-items:center;
+	color:white;
+}
+
+.location{
+	background:#67CDAC;
+	height:70px;
+	display:grid;
+	place-items:center;
+	color:white;
+}
+
+
+.phone{
+	background:#555;
+	height:70px;
+	display:grid;
+	place-items:center;
+	color:white;
+}
+
+
+/* CONTACT FORM */
+
+.contact-form{
+	
+	
+}
+
+.contact-form label{
+	width:100%;
+	display:inline-block;
+}
+
+.contact-form input{
+	width:100%;
+	margin:7px 0;
+	background:white;
+	border:none;
+	height:35px;
+	outline:0;
+	padding:2px 8px;
+	font-size:1rem;
+	
+}
+
+
+.contact-form #send{
+	width:120px;
+	background:#222;
+	color:white;
+	padding:10px;
+}
+
+#hr{
+	border-bottom:none;
+}
+
+
+
